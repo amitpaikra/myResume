@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+}
+/* body header  */
+#body-header{
+    height: 65vh;
+    background-image: url("images/nav-header.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;/*visual blurry effect*/
+    background-attachment: fixed;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+/* change anchor tag property contain under li under horizontal list */
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    transition: color 1s;
+}
+/* horizontal list when hover */
+.horizontal-list li a:hover{
+    color:lightgray;
+}
+
+.nav-menu li a:hover{
+    border-bottom: 1px solid white;
+    transition: border-bottom 0.5s;
+}
+/* text align center */
+.text-center{
+    text-align: center;
+}
+
+/* my name  */
+#myname-header{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:white;
+    font-weight:700;
+    margin-bottom: 0.5rem;
+}
+
+#social-link li i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#social-link li i:hover{
+    /* box-shodow: h-offset v-offset blur spread color */
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+#about{
+    height:auto;
+    width:100%;
+}
+/* my-image */
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin:auto;
+    margin-top:-17vh;
+    position:relative;
+}
+#my-image img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+
+}
+
+#about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left:4rem;
+    margin-right:4rem;
+}
